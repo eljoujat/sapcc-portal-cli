@@ -1,0 +1,68 @@
+{
+  "name": "sapcc-portal-cli",
+  "version": "1.0.0",
+  "description": "SAP Commerce Cloud (CCv2) Cloud Portal API client — manage environments, builds, deployments, backups, scaling, certificates and more from the CLI or Node.js",
+  "main": "src/index.js",
+  "bin": {
+    "sccp": "./bin/portal.js"
+  },
+  "scripts": {
+    "start": "node bin/portal.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "sapcommerce",
+    "hybris",
+    "ccv2",
+    "cloud-portal",
+    "sap-commerce-cloud",
+    "commerce-cloud",
+    "portal-api",
+    "devops",
+    "cli",
+    "deployment",
+    "build",
+    "b2b",
+    "ecommerce",
+    "devtools",
+    "automation"
+  ],
+  "author": {
+    "name": "Youssef El Jaoujat",
+    "url": "https://github.com/eljoujat"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eljoujat/sapcc-portal-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eljoujat/sapcc-portal-cli/issues"
+  },
+  "homepage": "https://github.com/eljoujat/sapcc-portal-cli#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nock": "^13.5.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    ".env.example",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}
