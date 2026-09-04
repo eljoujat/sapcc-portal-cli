@@ -4,7 +4,7 @@
   "description": "SAP Commerce Cloud (CCv2) Cloud Portal API client — manage environments, builds, deployments, backups, scaling, certificates and more from the CLI or Node.js",
   "main": "src/index.js",
   "bin": {
-    "sccp": "./bin/portal.js"
+    "sccp": "bin/portal.js"
   },
   "scripts": {
     "start": "node bin/portal.js",
