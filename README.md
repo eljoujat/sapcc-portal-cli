@@ -2,6 +2,8 @@
 
 > SAP Commerce Cloud (CCv2) **Cloud Portal API** client — manage environments, builds, deployments, backups, scaling, certificates, scheduled activities, properties and roles from your terminal or Node.js code.
 
+[![CI](https://github.com/eljoujat/sapcc-portal-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/eljoujat/sapcc-portal-cli/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/sapcc-portal-cli.svg)](https://www.npmjs.com/package/sapcc-portal-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node.js >= 18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
 
